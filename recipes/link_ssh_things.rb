@@ -5,7 +5,7 @@ ssh_dbox_dir = "/Users/#{node['current_user']}/Dropbox/Hold/ssh_config"
 
 
 directory ssh_dir do
-  owner node['current_uesr']
+  owner node['current_user']
   mode 0700
 end
 
